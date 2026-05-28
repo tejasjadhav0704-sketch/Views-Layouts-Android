@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aoboshi_one"
+        android:text="Developer Realization 🤡"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:lineSpacingExtra="8sp"
+        android:padding="10dp"
+        android:text="Starting me laga tha Android development matlab mast UI banana, colors lagana, buttons round karna, thoda animation daal diya aur app ready 😌
+&#10;Phir XML ne reality check de diya.
+&#10;Ek button center karne jao toh poora layout hil jaata bhai.&#10;ConstraintLayout ka ek constraint missing ho toh views Mars pe chale jaate hain 🚀. &#10;Padding alag drama, margin alag drama
+&#10;Not gonna lie after fighting with layouts, dp, sp, nested views for hours I slowly realized:
+
+“Backend zyada peaceful hai bhai.”
+&#10;At least backend me logic hota hai 😭.&#10;Input diya → output aaya.&#10;Firebase me data gaya → data aaya.&#10;Simple.&#10;UI me toh kabhi button invisible, kabhi text cut, kabhi scroll missing, aur kabhi pura app Picasso painting ban jaata hai.
+&#10;So yeah after practicing views and layouts, I discovered something important:&#10;I don’t hate Android development&#10;I just emotionally connect more with backend now 😌☕"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+</androidx.constraintlayout.widget.ConstraintLayout>
