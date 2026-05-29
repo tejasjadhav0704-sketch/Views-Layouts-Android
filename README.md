@@ -1,6 +1,6 @@
 # Android Views & Layout Practice 📱
 
-This project was made while learning Android Views, XML layouts, and basic UI designing using Kotlin.
+This project was made while learning Android Views, XML layouts, and basic UI designing using Kotlin
 Not gonna lie 😄  
 Initially I thought Android UI would be easy…
 Then ConstraintLayout entered the chat.
@@ -83,4 +83,4 @@ But improving 🔥
 Clone the repository
 
 ```bash
-git clone 
+git clone https://github.com/tejasjadhav0704-sketch/Views-Layouts-Android.git
