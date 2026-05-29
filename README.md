@@ -80,6 +80,8 @@ But improving 🔥
 
 ## How to Run
 
+Download Git in your System from your favourite Browser's
+
 Clone the repository
 
 ```bash
