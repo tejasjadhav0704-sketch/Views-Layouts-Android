@@ -74,3 +74,13 @@ Still learning.
 Still debugging.  
 
 But improving 🔥
+
+
+---
+
+## How to Run
+
+Clone the repository
+
+```bash
+git clone 
