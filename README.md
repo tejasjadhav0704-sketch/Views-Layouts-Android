@@ -7,6 +7,23 @@ Then ConstraintLayout entered the chat.
 
 ---
 
+## Screenshots
+
+First Screen
+<p align="center">
+  <img src="Screenshots/Screenshot_20260530-172401.png" width="300">
+</p>
+Alert-Box Display
+<p align="center">
+  <img src="Screenshots/Screenshot_20260530-172413.png" width="300">
+</p>
+OnClick Screen
+<p align="center">
+  <img src="Screenshots/Screenshot_20260530-172413.png" width="300">
+</p>
+
+---
+
 ## ✨ What I Practiced
 
 - TextView
