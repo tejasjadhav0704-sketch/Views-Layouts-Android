@@ -31,9 +31,9 @@
         android:layout_margin="30dp">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/INPUT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
-
         </com.google.android.material.textfield.TextInputEditText>
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -44,7 +44,7 @@
         android:orientation="horizontal">
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/checkBox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dp"
@@ -80,13 +80,14 @@
         android:orientation="horizontal">
 
         <RadioGroup
+            android:id="@+id/radioGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radioButton"
+                android:id="@+id/radioButton1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -131,7 +132,7 @@
             android:layout_margin="16dp"
             android:layout_weight="1"
             android:contentDescription="@string/tejas"
-            android:src="@mipmap/ic_launcher">
+            android:src="@drawable/camera">
 
         </com.google.android.material.floatingactionbutton.FloatingActionButton>
 

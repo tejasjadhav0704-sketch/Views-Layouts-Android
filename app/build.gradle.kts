@@ -4,11 +4,7 @@ plugins {
 
 android {
     namespace = "com.example.views_practice"
-    compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
-    }
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.example.views_practice"
@@ -30,7 +26,7 @@ android {
         }
     }
     buildFeatures {
-        viewBinding = true;
+        viewBinding = true
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
@@ -45,6 +41,8 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.play.services.maps)
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
